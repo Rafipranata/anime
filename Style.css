@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+@media(max-width: 600px){
+  .judul{
+    display: flex;
+    margin-left: 6px;
+    justify-content: space-between;
+  }
+  
+  .judul .icon-1{
+    display: flex;
+    margin-right: 12px;
+    font-size: 18px;
+  }
+ 
+
+  .rekomendasi{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    overflow: scroll;
+    background-color: #eaeaea;
+    margin-left: 0;
+  }
+  
+  .rekomendasi::-webkit-scrollbar{
+    width: 0px;
+  }
+  .rekomendasi .card{
+    margin-right: 5px;
+    margin-top: 12px;
+    min-width: 120px;
+    height: 215px;
+    border: none;
+    line-height: 110px;
+    background-color: #eaeaea;
+  }
+  .card img{
+    width: 118px;
+    height: 200px;
+    margin-left: 2px;
+    border-radius: 10px;
+  }
+  
+  .card img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  
+  .on-going{
+    margin-left: 0;
+  }
+  
+  
+  .on-going .judul-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+  }
+  
+  .on-going .judul-1 .icon{
+    display: flex;
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  
+  .new{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    margin-left: 0;
+    overflow: scroll;
+    background-color: #eaeaea;
+  }
+  .new::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  .new .card-1{
+    margin-right: 5px;
+    margin-top: 12px;
+    min-width: 120px;
+    height: 215px;
+    border: none;
+    line-height: 110px;
+    background-color: #eaeaea;
+  }
+  .card-1 img{
+    width: 118px;
+    height: 200px;
+    margin-left: 2px;
+    border-radius: 10px;
+  }
+  .card-1 img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+}
