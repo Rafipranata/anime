@@ -1,3 +1,3 @@
 setTimeout(function(){
     $(".loading_bg").fadeToggle();
-  },6000);
+  },9000);
